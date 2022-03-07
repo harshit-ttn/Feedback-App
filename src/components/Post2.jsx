@@ -11,7 +11,7 @@ function Post2() {
         navigate('/about')
     }
 
-    if(status==404){
+    if(status===404){
       return <Navigate to='notfound' />
   }
 
