@@ -4,8 +4,8 @@
 
  export const FeedbackProvider=({children})=>{
 
-    const[isloading,setIsLoading]=useState(true)
     // eslint-disable-next-line
+    const[isloading,setIsLoading]=useState(true)
     const [feedback,setFeedback]=useState([])         // global state
 
 
